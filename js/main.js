@@ -36,6 +36,6 @@ const boxAnimation = () => {
 
   setTimeout(function () {
     boxAnimation();
-  }, 100);
+  }, 1000);
 };
 boxAnimation();
